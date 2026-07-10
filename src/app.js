@@ -12,7 +12,8 @@ res.status(201).json({
 })
 app.get('/notes' , (req,res)=>{
     res.status(200).json({
-        message: " Notes fetches successfully"
+        message: " Notes fetches successfully",
+        notes: notes
     })
 })
 
