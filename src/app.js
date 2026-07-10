@@ -10,4 +10,11 @@ res.status(201).json({
     message: "Notes created successfully",
 });
 })
+app.get('/notes' , (req,res)=>{
+    res.status(200).json({
+        message: " Notes fetches successfully"
+    })
+})
+
+
 module.exports = app;
